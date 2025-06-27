@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>关于 | LBX的小站</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://liboxuanzs.filegear-sg.me/favicon.ico?v=1751047857885">
+<link rel="stylesheet" href="https://liboxuanzs.filegear-sg.me/styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+欢迎来到我的小站呀，很高兴遇见你！🤝
+
+🏠 关于本站
+本站为博主业余时间搭建的，服务器是挂载在 Github 上，访问可能会因为地区不同而导致延迟，请谅解🤝🤝
+👨‍💻 博主是谁
+初中生一枚
+⛹ 兴趣爱好
+科技（电脑手机通吃）
+..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://liboxuanzs.filegear-sg.me">
+        <img src="https://liboxuanzs.filegear-sg.me/images/avatar.png?v=1751047857885" class="site-logo">
+        <h1 class="site-title">LBX的小站</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      自律，遇见更好的自己
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/liboxuanzs" target="_blank"> LBX</a> | <a class="rss" href="https://liboxuanzs.filegear-sg.me/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">关于</h2>
+            <div class="post-date">2023-04-19</div>
+            
+            <div class="post-content" v-pre>
+              <blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>本站为博主业余时间搭建的，服务器是挂载在 <strong>Github</strong> 上，访问可能会因为地区不同而导致延迟，请谅解🤝🤝</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>初中生一枚</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>科技（电脑手机通吃）<br>
+理科学习</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p><a href="https://github.com/liboxuanzs">Github大号</a><br>
+<a href="https://github.com/liboxuans">Github小号</a><br>
+<a href="https://master.liboxuans-github-io.pages.dev">博客主页</a><br>
+<strong><a href="https://liboxuanzs.github.io" title="有不少好东西">曾经博客（已弃站）</a></strong></p>
+
+            </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'Ov23liRWfpDMnEgOlImY',
+        clientSecret: '9dcb245d48e97e181663f8c555b8685585c2e5e6',
+        repo: 'liboxuans.github.io',
+        owner: 'liboxuans',
+        admin: ['liboxuans'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
